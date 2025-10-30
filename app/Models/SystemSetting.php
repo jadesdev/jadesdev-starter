@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Cache;
 class SystemSetting extends Model
 {
     use HasUlids;
+
     protected static function boot()
     {
         parent::boot();
